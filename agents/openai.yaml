@@ -1,0 +1,6 @@
+interface:
+  display_name: "TikTok Case Video"
+  short_description: "Turn case materials into sharp vertical story videos"
+  brand_color: "#AD5D65"
+  default_prompt: "Use $tiktok-case-video to turn these source materials into a TikTok-ready case video, storyboard, and timed voiceover."
+
