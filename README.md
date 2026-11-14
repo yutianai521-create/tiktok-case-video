@@ -4,26 +4,6 @@
 
 这套 Skill 来自多轮真实修改中反复出现的问题：视频像 PPT、素材重复、头像反复出现、不同画幅产生黑边、低清素材被强行放大、旁白太平、现有 TikTok 视频整段复用，以及事实素材被错误替代。
 
-## 发布到 GitHub
-
-当前目录已经是可直接上传的仓库内容。新建一个空 GitHub 仓库后，在本地执行：
-
-```bash
-git init -b main
-git add .
-git commit -m "Add TikTok case video skill"
-git remote add origin <your-repository-url>
-git push -u origin main
-```
-
-如果使用 GitHub CLI，也可以执行：
-
-```bash
-gh repo create tiktok-case-video --public --source . --push
-```
-
-公开分享前，请根据你的使用方式选择并添加合适的开源许可证；本包不替你预设许可证。
-
 ## 它能做什么
 
 - 读取素材包和事实底稿，区分头像、作品、交付物、证明截图和参考素材
@@ -41,13 +21,13 @@ gh repo create tiktok-case-video --public --source . --push
 ### Windows PowerShell
 
 ```powershell
-git clone <repo-url> "$env:USERPROFILE\.codex\skills\tiktok-case-video"
+git clone https://github.com/yutianai521-create/tiktok-case-video.git "$env:USERPROFILE\.codex\skills\tiktok-case-video"
 ```
 
 ### macOS / Linux
 
 ```bash
-git clone <repo-url> ~/.codex/skills/tiktok-case-video
+git clone https://github.com/yutianai521-create/tiktok-case-video.git ~/.codex/skills/tiktok-case-video
 ```
 
 重新打开 Codex，或开始一个新任务。Skill 默认支持自动匹配，也可以显式调用：
@@ -152,5 +132,9 @@ tiktok-case-video/
 ## 设计原则
 
 这不是一个固定视觉模板。它优先让成片像素材本身的世界，而不是套上统一的“AI 风”。同一套方法可以服务动漫角色、音乐男团、TTRPG、设计委托或产品机制，但配色、字体、节奏和声音应跟着故事变化。
+
+## License
+
+当前仓库尚未附加开源许可证。仓库所有者可在确定允许的使用和再分发范围后补充许可证。
 
 
