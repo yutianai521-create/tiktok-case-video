@@ -1,6 +1,6 @@
 # TikTok Case Video Skill
 
-把人物、产品、委托或创作者案例素材，整理成适合 TikTok 的竖屏故事视频、剪辑脚本和逐秒旁白。
+把人物、产品、委托、直播、AMA 或新闻事件素材，整理成适合 TikTok/Reels/Shorts/X 的竖屏故事视频、剪辑脚本、逐秒旁白和发布文案。
 
 这套 Skill 来自多轮真实修改中反复出现的问题：视频像 PPT、素材重复、头像反复出现、不同画幅产生黑边、低清素材被强行放大、旁白太平、现有 TikTok 视频整段复用，以及事实素材被错误替代。
 
@@ -13,6 +13,10 @@
 - 在素材有限时，用动态排版补足叙事，而不是重复同一张图
 - 检查 9:16 比例、时长、帧率、音轨和导出规格
 - 根据反馈修复黑边、模糊、重复、PPT 感和旁白节奏问题
+- 从长音频和逐字稿中定位原声，制作 10–15 秒 AMA/采访切片
+- 区分原话、改写、公开日志、平台声明和独立事实，保留来源标签
+- 制作英文视频文案、TikTok/YouTube/X 发布文案及中英字幕
+- 将横版新闻视频放入 9:16 黑底画布，并把字幕排在独立黑色区域
 
 ## 安装
 
@@ -66,6 +70,21 @@ Give me the edited video, a no-voice master, and a timestamped English voiceover
 ```text
 使用 $tiktok-case-video 按这个 15 秒视频的实际镜头节奏重写英文旁白。
 开头更有 TikTok 感，结果画面处留 1.5 秒停顿。
+```
+
+### AMA 音频切片
+
+```text
+使用 $tiktok-case-video 从 AMA 音频和逐字稿里做两个 15 秒英文切片。
+两个选题不能重复；原声必须核对精确切点。没有直播画面时使用人物卡、真实波形、
+证据截图和黄绿重点字幕。旁白单独按时间段交付。
+```
+
+### 事件证据视频
+
+```text
+使用 $tiktok-case-video 把邮件、X 帖子和公开日志做成 20 秒竖屏事件视频。
+区分原话、编辑文案、Pip 自述和 iLands 声明，并在画面中标明来源。
 ```
 
 ## 推荐输入
@@ -122,6 +141,8 @@ tiktok-case-video/
 ├── agents/openai.yaml
 ├── references/
 │   ├── editing-playbook.md
+│   ├── audio-led-cutdowns.md
+│   ├── event-evidence.md
 │   ├── platform-copy.md
 │   └── storyboard-template.md
 └── scripts/
@@ -136,5 +157,3 @@ tiktok-case-video/
 ## License
 
 当前仓库尚未附加开源许可证。仓库所有者可在确定允许的使用和再分发范围后补充许可证。
-
-

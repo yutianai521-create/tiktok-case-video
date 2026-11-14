@@ -11,6 +11,8 @@ Copy and fill this only after the materials have been inspected.
 - Why it matters:
 - Evidence available:
 - Evidence missing:
+- Claim status: verbatim / paraphrase / self-report / company statement / independently verified
+- Required source label:
 
 ## Asset map
 
@@ -27,6 +29,14 @@ Copy and fill this only after the materials have been inspected.
 | 0:05–0:08 | | | | |
 | 0:08–0:12 | | | | |
 | 0:12–end | | | | |
+
+## Narration handoff
+
+| Time | Narration text | Original audio? | Delivery note |
+|---|---|---|---|
+| | | | |
+
+Mark every interval that must remain free of narration.
 
 ## Export targets
 
@@ -47,5 +57,7 @@ Copy and fill this only after the materials have been inspected.
 - [ ] Text remains readable and inside safe areas.
 - [ ] Voiceover fits the actual cut with pauses.
 - [ ] Facts and private information have been checked.
-
-
+- [ ] Named questions and quotations are attributed to the correct speaker.
+- [ ] Non-contiguous dialogue is labeled as an edited excerpt.
+- [ ] Self-reported logs and company statements are labeled.
+- [ ] Platform copy does not claim more than the final edit proves.

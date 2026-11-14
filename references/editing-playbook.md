@@ -20,6 +20,10 @@ Best when only one avatar and one finished work are available. Use each once. Le
 
 Best when showing a mechanism rather than a character story. Start with the user benefit, demonstrate one clear sequence, then end on the changed state. Avoid stacking feature lists.
 
+### Audio-led event cutdown
+
+Best when an AMA, interview, podcast, or livestream has no usable live video. Use the original audio as the spine, establish the speaker with a portrait and role, animate a real waveform, and reveal supporting screenshots only when they advance the quote. Fill only the necessary setup with narration.
+
 ## Useful pacing patterns
 
 ### 15-second case
@@ -47,6 +51,21 @@ Choose one system and keep it consistent:
 
 Never stretch footage. Black space is acceptable only when it is an intentional part of the design, not an unhandled aspect-ratio mismatch.
 
+For a landscape source converted to 9:16, preserving the full frame inside a black portrait canvas is a valid editorial system. Use the upper black region for a short headline and the lower region for subtitles. Manually split long subtitles into balanced two-line phrases.
+
+## Event-video house style
+
+When the user asks to match the established Pip email-video style:
+
+- use a near-black background such as `#101214`;
+- set body type in white and one active or decisive phrase in lime `#D7FF3F`;
+- keep source labels in cool gray;
+- change crop, evidence, or emphasis every 1–2 seconds;
+- show one reading target per shot;
+- use screenshots, profile cards, and public logs instead of generic robot or hologram footage;
+- add a small black backing shape when captions sit over footage;
+- keep text above platform controls and away from faces and source lines.
+
 ## “No AI feel” translation
 
 This normally means editorial restraint, not the absence of digital tools:
@@ -66,5 +85,3 @@ This normally means editorial restraint, not the absence of digital tools:
 - **Feels repetitive:** the same identity image or result clip is filling multiple story beats. Assign each asset one narrative job.
 - **Voiceover feels flat:** it begins with background information instead of the change. Move the surprising behavior or result to the first sentence.
 - **Too much text:** narration, captions, and title cards repeat the same sentence. Give each channel a different job.
-
-

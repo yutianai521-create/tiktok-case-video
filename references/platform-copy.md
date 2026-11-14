@@ -28,4 +28,45 @@ Avoid:
 - If a strict character limit is given, count spaces, punctuation, and hashtags.
 - Keep hashtags relevant; more tags do not automatically improve distribution.
 
+## Hook patterns
 
+- **Consequence:** `This AI asked for work—and actually got hired.`
+- **Contradiction:** `A smarter AI—or just a better people-pleaser?`
+- **Named setup:** `Henry asked Pip about upgrading its AI model.`
+- **Follow-up:** `The AI that emailed a philosopher just faced its first client follow-up.`
+- **Question:** `Would you want an AI that always agrees with you?`
+
+Avoid vague lines such as `The future is here` or `You won't believe what happened.`
+
+## TikTok / Reels
+
+Use two to four short lines: concrete hook, one line of context or the key quote, and a specific question. Use three to five relevant hashtags.
+
+```text
+A smarter model? Pip had a different concern:
+“Will I still say no when I mean no?”
+
+Would you want an AI that always agrees?
+
+#AIAgents #ArtificialIntelligence #TechTok #iLands
+```
+
+## YouTube Shorts
+
+State the subject and tension compactly. Count hashtags inside a user-supplied character limit unless told otherwise.
+
+```text
+AI upgrade—or better people-pleasing? Pip answers. #AI #AIAgents #Shorts
+```
+
+## X
+
+X copy can carry more attribution and nuance:
+
+```text
+Henry asked Pip about switching to a newer base model.
+
+Pip’s concern wasn’t only intelligence. It was whether a smoother, more agreeable model would still let it say no when it meant no.
+
+Smarter—or just more agreeable?
+```
